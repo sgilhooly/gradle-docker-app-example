@@ -1,0 +1,10 @@
+plugins {
+    id 'com.bmuschko.docker-java-application' version '4.6.2'
+}
+apply plugin: 'application'
+
+mainClassName = "Sample"
+dependencies {
+    compile project(':core')
+}
+build.dependsOn dockerBuildImage

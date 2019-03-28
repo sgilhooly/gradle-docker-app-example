@@ -1,0 +1,7 @@
+// Sets a few config settings and defines all the sub-projects
+
+rootProject.name = 'example-project'
+
+include 'core'
+include 'bundle'
+
